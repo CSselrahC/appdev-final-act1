@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Skills from './components/Skills.js';
+import Projects from './components/Projects.js';
 import './App.css';
 
 function Home() {
   return (
     <div>
-      <h1>🐳 Docker React App</h1>
-      <p>Welcome to your Dockerized React application!</p>
-      <p>This app is running in a Docker container with hot reload enabled.</p>
+      <h1>Charles S. Carreon</h1>
+      <p>Hi! I am Charles S. Carreon.</p>
+      <p>I am a 3rd Year BS Computer Science student from Pamantasan ng Cabuyao.</p>
     </div>
   );
 }
@@ -29,18 +31,28 @@ function About() {
 }
 
 function App() {
+  useEffect(() => {
+    document.title = "Charles Carreon";
+  }, []);
+
   return (
     <Router>
       <div className="App">
         <nav className="navbar">
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/about" className="nav-link">About</Link>
+          <Link to="/projects" className="nav-link">Projects</Link>
+          <Link to="/skills" className="nav-link">Skills</Link>
+
         </nav>
-        
+
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/skills" element={<Skills />} />
+
           </Routes>
         </main>
       </div>
