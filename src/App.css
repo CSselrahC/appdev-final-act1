@@ -1,29 +1,42 @@
-.App {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.navbar {
-  background-color: #282c34;
-  padding: 1rem;
+/* Nav Bar */
+.custom-navbar {
+  background-color: #000000 !important;
   margin-bottom: 2rem;
   border-radius: 8px;
 }
 
-.nav-link {
-  color: #61dafb;
-  text-decoration: none;
-  margin: 0 1rem;
+.navbar-brand-custom {
+  padding-left: 1rem !important;
+  font-weight: 600;
+  color: #cccccc !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-start !important;
+}
+
+.nav.navbar-nav.ms-auto {
+  margin-right: 0 !important;
+  margin-left: 1rem !important;
+}
+
+.nav-link-custom {
+  color: #cccccc !important;
   font-size: 1.2rem;
+  margin: 0 0.6rem;
   transition: color 0.3s;
 }
 
-.nav-link:hover {
-  color: white;
+.nav-link-custom:hover {
+  color: #ffffff !important;
 }
 
+.nav-link-custom.active {
+  color: #eeeeee !important;
+  font-weight: 600;
+}
+
+/* Main content area */
 .main-content {
   min-height: 400px;
 }
@@ -34,7 +47,7 @@ h1 {
 }
 
 p {
-  color: #555;
+  color: #555555;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
@@ -47,5 +60,69 @@ ul {
 
 li {
   margin-bottom: 0.5rem;
-  color: #666;
+  color: #666666;
+}
+
+/* Projects */
+.project-link>a {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.project-link>a:hover {
+  color: #0a58ca;
+  text-decoration: underline;
+}
+
+.project-details-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-details-list li {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  margin: 0;
+}
+
+.project-details-list li:last-child {
+  border-bottom: none;
+}
+
+.project-details-list li strong {
+  flex: 0 0 130px;
+  display: inline-block;
+  font-weight: 700;
+  color: #212529;
+}
+
+.project-link-label {
+  flex: 0 0 130px;
+  font-weight: 700;
+  color: #212529;
+  display: inline-block;
+  padding-left: 0.75rem;
+}
+
+.project-links-container {
+  flex: 1;
+  padding-left: 0.75rem;
+}
+
+.project-link>a {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.project-link>a:hover {
+  color: #0a58ca;
+  text-decoration: underline;
 }

@@ -21,9 +21,41 @@ function About() {
                 </p>
             </header>
 
+            {/* Experiences Section */}
+            <section id="experiences" className="mb-5">
+                <h2 className="border-bottom pb-2 mb-4 text-success">Experiences</h2>
+                <div className="card shadow-sm">
+                    <div className="card-body">
+                        <div className="d-flex w-100 justify-content-between">
+                            <h4 className="card-title fw-bold text-dark">iSITE NATIONAL IT SKILLS COMPETITION 2025</h4>
+                            <small className="text-success fw-bold text-nowrap">March 28, 2025</small>
+                        </div>
+
+                        <p className="text-muted fst-italic mb-2">Role: Contestant (C# Programming)</p>
+
+                        <p className="card-text">
+                            I participated in the iSITE NATIONAL IT SKILLS COMPETITION 2025, representing my school as a contestant in the <strong className="text-dark">C# Programming</strong> category.
+                        </p>
+
+                        <div className="d-flex justify-content-between align-items-center mt-3">
+                            <span className="badge bg-info text-dark fw-bold">Technologies used: C#</span>
+                            <a
+                                href="https://www.facebook.com/photo?fbid=639672425702343&set=pcb.639672645702321"
+                                className="btn btn-outline-success btn-sm"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View Event Post &rarr;
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
             {/* Education Section */}
             <section id="education" className="mb-5">
-                <h2 className="border-bottom pb-2 mb-4 text-secondary">Education</h2>
+                <h2 className="border-bottom pb-2 mb-4 text-success">Education</h2>
 
                 <div className="card shadow-sm">
                     <div className="card-body">
@@ -67,40 +99,6 @@ function About() {
                     </div>
                 </div>
             </section>
-
-            {/* Experiences Section */}
-            <section id="experiences" className="mb-5">
-                <h2 className="border-bottom pb-2 mb-4 text-success">Experiences</h2>
-                <div className="card shadow-sm">
-                    <div className="card-body">
-                        <div className="d-flex w-100 justify-content-between">
-                            <h4 className="card-title fw-bold text-dark">iSITE NATIONAL IT SKILLS COMPETITION 2025</h4>
-                            <small className="text-success fw-bold text-nowrap">March 28, 2025</small>
-                        </div>
-
-                        <p className="text-muted fst-italic mb-2">Role: Contestant (C# Programming)</p>
-
-                        <p className="card-text">
-                            I participated in the iSITE NATIONAL IT SKILLS COMPETITION 2025, representing my school as a contestant in the <strong className="text-dark">C# Programming</strong> category.
-                        </p>
-
-                        <div className="d-flex justify-content-between align-items-center mt-3">
-                            <span className="badge bg-info text-dark fw-bold">Technologies used: C#</span>
-                            <a
-                                href="https://www.facebook.com/photo?fbid=639672425702343&set=pcb.639672645702321"
-                                className="btn btn-outline-success btn-sm"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                View Event Post &rarr;
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-
-            </section>
-
         </div>
     );
 }
