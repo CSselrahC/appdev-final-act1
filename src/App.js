@@ -23,7 +23,7 @@ function Home() {
 function About() {
   return (
     <div>
-      <h1>About</h1>
+      <h1>Charles S. Carreon</h1>
       <p>This is a sample React app containerized with Docker.</p>
       <p>Features:</p>
       <ul>
