@@ -1,0 +1,123 @@
+[
+    {
+        "projectId": "1",
+        "projectName": "Road to Rich Farming",
+        "projectDescription": "This is a visual novel game created for the laboratory exam of our course CSEG1 Game Concepts and Production for the 1st Semester of the 3rd Year of our Computer Science studies.",
+        "projectDate": "2025 November 17",
+        "projectTechnologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "projectType": "Game",
+        "projectStatus": "Finished",
+        "projectRole": "Developer",
+        "projectLink": [
+            "<a href='https://csselrahc.github.io/cseg-midterm-labexam/' target='_blank'>Deployed Game</a>",
+            "<a href='https://github.com/CSselrahC/cseg-midterm-labexam' target='_blank'>Source Code</a>"
+        ]
+    },
+    {
+        "projectId": "2",
+        "projectName": "KOTSELL",
+        "projectDescription": "An e-commerce web application created for our course CCS112 Applications Development and Emerging Technologies for the 1st Semester of the 3rd Year of our Computer Science studies.",
+        "projectDate": "2025 November",
+        "projectTechnologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React.js",
+            "Bootstrap"
+        ],
+        "projectType": "Web Application",
+        "projectStatus": "In Progress",
+        "projectRole": "Project Leader",
+        "projectLink": [
+            "<a href='https://github.com/CSselrahC/appdev-midterm-ecommerce' target='_blank'>Source Code</a>"
+        ]
+    },
+    {
+        "projectId": "3",
+        "projectName": "TaskFlow",
+        "projectDescription": "An Task Manager web application created for our course CCS112 Applications Development and Emerging Technologies for the 1st Semester of the 3rd Year of our Computer Science studies.",
+        "projectDate": "2025 October 12",
+        "projectTechnologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React.js",
+            "Bootstrap"
+        ],
+        "projectType": "Web Application",
+        "projectStatus": "Finished",
+        "projectRole": "Project Leader",
+        "projectLink": [
+            "<a href='https://github.com/cntaxc/ReactGroupProject_TaskFlow' target='_blank'>Source Code</a>"
+        ]
+    },
+    {
+        "projectId": "4",
+        "projectName": "Library Management System",
+        "projectDescription": "A Library Management System created for our course CCS112 Applications Development and Emerging Technologies for the 1st Semester of the 3rd Year of our Computer Science studies.",
+        "projectDate": "2025 October 12",
+        "projectTechnologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "php"
+        ],
+        "projectType": "Web Application",
+        "projectStatus": "Finished",
+        "projectRole": "Project Leader",
+        "projectLink": [
+            "<a href='https://github.com/CSselrahC/appdev-prelim-lab' target='_blank'>Source Code</a>"
+        ]
+    },
+    {
+        "projectId": "5",
+        "projectName": "JMusicPlayer",
+        "projectDescription": "JMusicPlayer is a music player that can play WAV files. It is uses Java Swing. The project was done as part of our Computer Programming 2 class.",
+        "projectDate": "2024 June",
+        "projectTechnologies": [
+            "Java",
+            "Java Swing"
+        ],
+        "projectType": "Software",
+        "projectStatus": "Finished",
+        "projectRole": "Co-developer",
+        "projectLink": [
+            "<a href='https://github.com/CSselrahC/JMusicPlayer' target='_blank'>Source Code</a>",
+            "<a href='https://www.facebook.com/csharlec/videos/2193928587632408' target='_blank'>Video Presentation</a>"
+        ]
+    },
+    {
+        "projectId": "6",
+        "projectName": "Rockat's Adventure",
+        "projectDescription": "This is an example of an animation created using Scratch.\nThe project was done in 2024, when I was in my first year of college.",
+        "projectDate": "2024 April",
+        "projectTechnologies": [
+            "Scratch"
+        ],
+        "projectType": "Animation",
+        "projectStatus": "Finished",
+        "projectRole": "Developer",
+        "projectLink": [
+            "<a href='https://scratch.mit.edu/projects/999094164' target='_blank'>Animation</a>"
+        ]
+    },
+    {
+        "projectId": "7",
+        "projectName": "Catching Game",
+        "projectDescription": "This is an example of a game created using Scratch.\nThe project was done in 2024, when I was in my first year of college.",
+        "projectDate": "2024 April",
+        "projectTechnologies": [
+            "Scratch"
+        ],
+        "projectType": "Game",
+        "projectStatus": "Finished",
+        "projectRole": "Developer",
+        "projectLink": [
+            "<a href='https://scratch.mit.edu/projects/1006137077' target='_blank'>Animation</a>"
+        ]
+    }
+]

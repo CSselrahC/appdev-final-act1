@@ -10,6 +10,12 @@ function Home() {
       <h1>Charles S. Carreon</h1>
       <p>Hi! I am Charles S. Carreon.</p>
       <p>I am a 3rd Year BS Computer Science student from Pamantasan ng Cabuyao.</p>
+      <p>You can contact me through the following platforms: </p>
+      <ul>
+          <li>Facebook: <a href="https://www.facebook.com/csharlec" target="_blank">Charles Carreon</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/feed/" target="_blank">Charles Carreon</a></li>
+          <li>GitHub: <a href="https://github.com/CSselrahC" target="_blank">Charles Carreon</a></li>
+      </ul>
     </div>
   );
 }
