@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import tempPic from '../data/temp-pic.jpg';
 
 function About() {
     return (
@@ -19,6 +20,36 @@ function About() {
                     GitHub: <a href="https://github.com/CSselrahC" target="_blank" className="text-decoration-none">CSselrahC</a>
                 </p>
             </header>
+
+            {/* Information Section */}
+            <section id="experiences" className="mb-5">
+                <h2 className="border-bottom pb-2 mb-4 text-success">Personal Information</h2>
+                <div className="card shadow-sm">
+                    <div className="card-body d-flex flex-column flex-md-row align-items-center">
+                        <img
+                            src={tempPic}
+                            alt="Description"
+                            className="rounded-circle me-md-4 mb-3 mb-md-0"
+                            style={{ width: '250px', height: '250px', objectFit: 'cover' }}
+                        />
+
+                        {/* Content */}
+                        <div className="flex-grow-1 w-100">
+                            <div className="d-flex w-100 justify-content-between">
+                                <h6 className="card-title fw-bold text-dark">Aspiring Software Developer</h6>
+                            </div>
+
+                            <h1>Charles</h1>
+                            <p className="card-text">
+                                Hi! I am{' '}<strong className="text-dark">Charles Serrano Carreon</strong>. I am an undergraduate of Bachelor Science in Computer Science.
+                                My interest in computing technologies started when I was in high school. I aspire to be a software developer, developing games and creating tools that people would love to use.
+                                I am currently seeking opportunities where I can learn, contribute as a team member, and be able to showcase my various skills in technology. Feel free to contact me below.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
             {/* Experiences Section */}
             <section id="experiences" className="mb-5">

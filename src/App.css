@@ -114,3 +114,11 @@ li {
   flex: 1;
   padding-left: 0.75rem;
 }
+
+footer {
+  border-top: 1px solid #444;
+}
+
+footer a:hover {
+  color: #17d3af !important; /* accent color on hover */
+}

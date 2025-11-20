@@ -7,6 +7,8 @@ import About from "./components/About.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
+import Footer from "./components/Footer";
+
 function App() {
   useEffect(() => {
     document.title = "Charles Carreon";
@@ -14,11 +16,11 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
+      <div className="App d-flex flex-column min-vh-100">
         <Navbar expand="lg" variant="dark" bg="black" className="custom-navbar" collapseOnSelect>
           <Container>
             <Navbar.Brand as={NavLink} to="/" className="navbar-brand-custom">
-              Portfolio
+              Charles S. Carreon
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -37,13 +39,15 @@ function App() {
           </Container>
         </Navbar>
 
-        <main className="main-content">
+        <main className="main-content flex-grow-1">
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/skills" element={<Skills />} />
           </Routes>
         </main>
+
+        <Footer />
       </div>
     </Router>
   );
