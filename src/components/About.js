@@ -4,10 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function About() {
     return (
         <div className="container my-5 py-3">
-
             {/* Header and Contact */}
             <header className="text-center mb-5 border-bottom pb-3">
-                <h1 className="display-4 fw-bold text-primary">Charles S. Carreon</h1>
+                <h1 className="display-4 fw-bold text-success">Charles S. Carreon</h1>
                 <p className="lead">Bachelor of Science in Computer Science Student</p>
                 <p className="text-muted mb-0">
                     Hi! I am <strong className="text-dark">Charles S. Carreon.</strong><br />
@@ -64,7 +63,7 @@ function About() {
                         <div className="mb-4 pb-3 border-bottom">
                             <div className="d-flex w-100 justify-content-between">
                                 <h5 className="mb-1 fw-bold">Bachelor Science in Computer Science</h5>
-                                <small className="text-primary fw-semibold">2023 - Present (3rd Year)</small>
+                                <small className="text-success fw-bold text-nowrap">2023 - Present (3rd Year)</small>
                             </div>
                             <p className="mb-1 text-muted">Pamantasan ng Cabuyao</p>
                         </div>

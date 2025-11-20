@@ -14,7 +14,7 @@ const skillsData = [
         category: "Back-End / Server-Side",
         skills: [
             { name: "Java", proficiency: "Advanced" },
-            { name: "C", proficiency: "Proficient" },
+            { name: "C#", proficiency: "Proficient" },
             { name: "Python", proficiency: "Familiar" },
             { name: "PHP", proficiency: "Familiar" },
             { name: "Laravel (PHP)", proficiency: "Familiar" },
@@ -58,21 +58,19 @@ const getProficiencyClass = (level) => {
 
 function Skills() {
     return (
-        <div className="container my-5">
+        <div className="container my-5 py-3">
             {/* Header */}
-            <header className="text-center mb-5">
-                <h1 className="display-5 fw-bold text-primary">Skills</h1>
-                <p className="lead text-muted">
-                    Tools and technologies I use
-                </p>
-                <hr className="w-25 mx-auto border-primary border-2" />
+            <header className="text-center mb-5 border-bottom pb-3">
+                <h1 className="display-4 fw-bold text-success">Skills</h1>
+                <p className="lead">Tools and technologies I use</p>
+                <hr className="w-25 mx-auto border-success border-2" />
             </header>
             {/* Skills Grid */}
             <div className="row g-4">
                 {skillsData.map((categoryItem) => (
                     <div key={categoryItem.category} className="col-12 col-md-6">
                         <div
-                            className="card shadow-lg h-100 border-start border-5 border-primary"
+                            className="card shadow-lg h-100 border-start border-5 border-success"
                             style={{ borderRadius: "0.75rem" }}
                         >
                             <div className="card-body p-4">

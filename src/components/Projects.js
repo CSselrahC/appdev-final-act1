@@ -4,21 +4,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Projects() {
     return (
-        <div className="container my-5">
-            <header>
-                <h1 className="display-5 fw-bold text-primary text-center mb-4">Projects</h1>
-                <p className="lead text-muted text-center mb-4">
-                    A showcase of my works and contributions
-                </p>
-                <hr className="w-25 mx-auto border-primary border-2" />
+        <div className="container my-5 py-3">
+            {/* Header */}
+            <header className="text-center mb-5 border-bottom pb-3">
+                <h1 className="display-4 fw-bold text-success">Projects</h1>
+                <p className="lead">A showcase of my works and contributions</p>
+                <hr className="w-25 mx-auto border-success border-2" />
             </header>
 
-            <div className="row">
+            <div className="row g-4">
                 {projectsData.map((project) => (
-                    <div key={project.projectId} className="col-lg-6 col-md-12 mb-4">
-                        <div className="card shadow-lg h-100 border-start border-5 border-primary">
-                            <div className="card-body d-flex flex-column">
-                                <h3 className="card-title text-primary mb-3">{project.projectName}</h3>
+                    <div key={project.projectId} className="col-12 col-md-6">
+                        <div className="card shadow-lg h-100 border-start border-5 border-success" style={{ borderRadius: "0.75rem" }}>
+                            <div className="card-body p-4">
+                                <h3 className="card-title h4 fw-bold mb-4">{project.projectName}</h3>
                                 <p className="card-text flex-grow-1" style={{ whiteSpace: "pre-wrap" }}>
                                     {project.projectDescription}
                                 </p>
