@@ -28,11 +28,11 @@
 }
 
 .nav-link-custom:hover {
-  color: #ffffff !important;
+  color: #CFFFE2 !important;
 }
 
 .nav-link-custom.active {
-  color: #eeeeee !important;
+  color: #1DCD9F !important;
   font-weight: 600;
 }
 
@@ -120,5 +120,6 @@ footer {
 }
 
 footer a:hover {
-  color: #17d3af !important; /* accent color on hover */
+  color: #17d3af !important;
+  /* accent color on hover */
 }

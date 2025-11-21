@@ -39,7 +39,7 @@
     {
         "projectId": "3",
         "projectName": "TaskFlow",
-        "projectDescription": "An Task Manager web application created for our course CCS112 Applications Development and Emerging Technologies for the 1st Semester of the 3rd Year of our Computer Science studies.",
+        "projectDescription": "A Task Manager web application created for our course CCS112 Applications Development and Emerging Technologies for the 1st Semester of the 3rd Year of our Computer Science studies.",
         "projectDate": "2025 October 12",
         "projectTechnologies": [
             "HTML",
@@ -76,7 +76,7 @@
     {
         "projectId": "5",
         "projectName": "JMusicPlayer",
-        "projectDescription": "JMusicPlayer is a music player that can play WAV files. It is uses Java Swing. The project was done as part of our Computer Programming 2 class.",
+        "projectDescription": "JMusicPlayer is a music player that can play WAV files. It uses Java Swing. The project was done as part of our Computer Programming 2 class.",
         "projectDate": "2024 June",
         "projectTechnologies": [
             "Java",

@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import tempPic from '../data/temp-pic.jpg';
+import profileImage from '../data/charles-pic.png';
 
 function About() {
     return (
@@ -27,7 +27,7 @@ function About() {
                 <div className="card shadow-sm">
                     <div className="card-body d-flex flex-column flex-md-row align-items-center">
                         <img
-                            src={tempPic}
+                            src={profileImage}
                             alt="Description"
                             className="rounded-circle me-md-4 mb-3 mb-md-0"
                             style={{ width: '250px', height: '250px', objectFit: 'cover' }}
@@ -41,9 +41,9 @@ function About() {
 
                             <h1>Charles</h1>
                             <p className="card-text">
-                                Hi! I am{' '}<strong className="text-dark">Charles Serrano Carreon</strong>. I am an undergraduate of Bachelor Science in Computer Science.
+                                Hi! I am{' '}<strong className="text-dark">Charles Serrano Carreon</strong>. I am currently studying in Pamantasan ng Cabuyao as an undergraduate of Bachelor Science in Computer Science.
                                 My interest in computing technologies started when I was in high school. I aspire to be a software developer, developing games and creating tools that people would love to use.
-                                I am currently seeking opportunities where I can learn, contribute as a team member, and be able to showcase my various skills in technology. Feel free to contact me below.
+                                I am currently seeking opportunities where I can learn, contribute as a team member, and be able to showcase my skills. Feel free to contact me.
                             </p>
                         </div>
                     </div>

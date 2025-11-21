@@ -8,6 +8,7 @@ const skillsData = [
             { name: "CSS", proficiency: "Proficient" },
             { name: "JavaScript", proficiency: "Proficient" },
             { name: "React.js", proficiency: "Familiar" },
+            { name: "Bootstrap", proficiency: "Familiar" }
         ],
     },
     {
@@ -18,7 +19,7 @@ const skillsData = [
             { name: "Python", proficiency: "Familiar" },
             { name: "PHP", proficiency: "Familiar" },
             { name: "Laravel (PHP)", proficiency: "Familiar" },
-            { name: "MySQL", proficiency: "Familiar" },
+            { name: "MySQL", proficiency: "Familiar" }
         ],
     },
     {
@@ -26,7 +27,7 @@ const skillsData = [
         skills: [
             { name: "Unity Engine", proficiency: "Familiar" },
             { name: "Godot Engine", proficiency: "Familiar" },
-            { name: "C# Game Scripting", proficiency: "Familiar" },
+            { name: "C# Game Scripting", proficiency: "Familiar" }
         ],
     },
     {
@@ -37,6 +38,7 @@ const skillsData = [
             { name: "Docker Desktop", proficiency: "Familiar" },
             { name: "Figma", proficiency: "Familiar" },
             { name: "Command Line Interface (CLI)", proficiency: "Proficient" },
+            { name: "Vercel", proficiency: "Familiar" }
         ],
     },
 ];
