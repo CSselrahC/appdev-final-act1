@@ -10,7 +10,7 @@ function About() {
                 <h1 className="display-4 fw-bold text-success">Charles S. Carreon</h1>
                 <p className="lead">Bachelor of Science in Computer Science Student</p>
                 <p className="text-muted mb-0">
-                    Hi! I am <strong className="text-dark">Charles S. Carreon.</strong><br />
+                    Hi! I am <strong className="text-dark">Charles S. Carreon</strong>.<br />
                     I am a 3rd Year BS Computer Science student from Pamantasan ng Cabuyao.
                 </p>
                 <p className="text-muted">
@@ -64,7 +64,7 @@ function About() {
                         <p className="text-muted fst-italic mb-2">Role: Contestant (C# Programming)</p>
 
                         <p className="card-text">
-                            I participated in the iSITE NATIONAL IT SKILLS COMPETITION 2025, representing my school as a contestant in the <strong className="text-dark">C# Programming</strong> category.
+                            I participated in the iSITE NATIONAL IT SKILLS COMPETITION 2025, representing Pamantasan ng Cabuyao as a contestant in the <strong className="text-dark">C# Programming</strong> category.
                         </p>
 
                         <div className="d-flex justify-content-between align-items-center mt-3">

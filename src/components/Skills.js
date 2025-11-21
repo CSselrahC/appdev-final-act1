@@ -14,12 +14,17 @@ const skillsData = [
     {
         category: "Back-End / Server-Side",
         skills: [
-            { name: "Java", proficiency: "Advanced" },
-            { name: "C#", proficiency: "Proficient" },
-            { name: "Python", proficiency: "Familiar" },
             { name: "PHP", proficiency: "Familiar" },
             { name: "Laravel (PHP)", proficiency: "Familiar" },
             { name: "MySQL", proficiency: "Familiar" }
+        ],
+    },
+    {
+        category: "Programming",
+        skills: [
+            { name: "Java", proficiency: "Advanced" },
+            { name: "C#", proficiency: "Proficient" },
+            { name: "Python", proficiency: "Familiar" }
         ],
     },
     {
