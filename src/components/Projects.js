@@ -3,6 +3,11 @@ import projectsData from "../data/projects.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Projects() {
+    // Sort projects in descending order by numeric projectId
+    const sortedProjects = [...projectsData].sort((a, b) => {
+        return Number(b.projectId) - Number(a.projectId);
+    });
+
     return (
         <div className="container my-5 py-3">
             {/* Header */}
@@ -13,9 +18,12 @@ function Projects() {
             </header>
 
             <div className="row g-4">
-                {projectsData.map((project) => (
+                {sortedProjects.map((project) => (
                     <div key={project.projectId} className="col-12 col-md-6">
-                        <div className="card shadow-lg h-100 border-start border-5 border-success" style={{ borderRadius: "0.75rem" }}>
+                        <div
+                            className="card shadow-lg h-100 border-start border-5 border-success"
+                            style={{ borderRadius: "0.75rem" }}
+                        >
                             <div className="card-body p-4">
                                 <h3 className="card-title h4 fw-bold mb-4">{project.projectName}</h3>
                                 <p className="card-text flex-grow-1" style={{ whiteSpace: "pre-wrap" }}>
@@ -33,7 +41,13 @@ function Projects() {
                                     </li>
                                     {/* Project Status */}
                                     <li className="list-group-item">
-                                        <strong>Project Status:</strong> <span className={`badge ${project.projectStatus === 'Finished' ? 'bg-success' : 'bg-warning text-dark'}`}>{project.projectStatus}</span>
+                                        <strong>Project Status:</strong>{" "}
+                                        <span
+                                            className={`badge ${project.projectStatus === "Finished" ? "bg-success" : "bg-warning text-dark"
+                                                }`}
+                                        >
+                                            {project.projectStatus}
+                                        </span>
                                     </li>
                                     {/* Project Role */}
                                     <li className="list-group-item">
@@ -59,7 +73,6 @@ function Projects() {
                                         )}
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>

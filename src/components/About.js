@@ -41,7 +41,7 @@ function About() {
 
                             <h1>Charles</h1>
                             <p className="card-text">
-                                Hi! I am{' '}<strong className="text-dark">Charles Serrano Carreon</strong>. I am currently studying in Pamantasan ng Cabuyao as an undergraduate of Bachelor Science in Computer Science.
+                                Hi! I am{' '}<strong className="text-dark">Charles Serrano Carreon</strong>. I am currently studying in Pamantasan ng Cabuyao as an undergraduate of Bachelor of Science in Computer Science.
                                 My interest in computing technologies started when I was in high school. I aspire to be a software developer, developing games and creating tools that people would love to use.
                                 I am currently seeking opportunities where I can learn, contribute as a team member, and be able to showcase my skills. Feel free to contact me.
                             </p>
@@ -93,7 +93,7 @@ function About() {
                         {/* 1. BS Computer Science*/}
                         <div className="mb-4 pb-3 border-bottom">
                             <div className="d-flex w-100 justify-content-between">
-                                <h5 className="mb-1 fw-bold">Bachelor Science in Computer Science</h5>
+                                <h5 className="mb-1 fw-bold">Bachelor of Science in Computer Science</h5>
                                 <small className="text-success fw-bold text-nowrap">2023 - Present (3rd Year)</small>
                             </div>
                             <p className="mb-1 text-muted">Pamantasan ng Cabuyao</p>
